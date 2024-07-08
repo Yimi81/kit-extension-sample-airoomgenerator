@@ -41,6 +41,7 @@ async def chatGPT_call(prompt: str):
         }
         chatgpt_url = "https://api.openai.com/v1/chat/completions"
         headers = {"Authorization": "Bearer %s" % apikey}
+        print(f"Parameters: {parameters}")
         # Create a completion using the chatGPT model
         async with aiohttp.ClientSession() as session:
             async with session.post(chatgpt_url, headers=headers, json=parameters) as r:
