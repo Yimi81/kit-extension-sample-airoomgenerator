@@ -1,0 +1,60 @@
+{
+    "area_name": "Test_Area",
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0,
+    "area_size_X": 244.81475830078125,
+    "area_size_Z": 273.92938232421875,
+    "area_objects_list": [
+        {
+            "object_name": "Dining_Table",
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "Length": 100,
+            "Width": 75,
+            "Height": 75,
+            "Material": "Oak"
+        },
+        {
+            "object_name": "Chair_1",
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": -60.0,
+            "Length": 45,
+            "Width": 45,
+            "Height": 90,
+            "Material": "Mahogany"
+        },
+        {
+            "object_name": "Chair_2",
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 60.0,
+            "Length": 45,
+            "Width": 45,
+            "Height": 90,
+            "Material": "Mahogany"
+        },
+        {
+            "object_name": "Chair_3",
+            "X": -60.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "Length": 45,
+            "Width": 45,
+            "Height": 90,
+            "Material": "Mahogany"
+        },
+        {
+            "object_name": "Chair_4",
+            "X": 60.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "Length": 45,
+            "Width": 45,
+            "Height": 90,
+            "Material": "Mahogany"
+        }
+    ]
+}

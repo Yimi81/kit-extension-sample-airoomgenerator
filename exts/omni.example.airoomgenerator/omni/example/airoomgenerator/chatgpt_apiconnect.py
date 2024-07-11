@@ -47,6 +47,7 @@ async def chatGPT_call(prompt: str):
             async with session.post(chatgpt_url, headers=headers, json=parameters) as r:
                 response = await r.json()
         text = response["choices"][0]["message"]['content']
+        print(f"response: {text}")
     except Exception as e:
         carb.log_error("An error as occurred")
         return None, str(e)
